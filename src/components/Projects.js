@@ -25,18 +25,18 @@ const Projects = () => {
             imgUrl: projImg3,
           },
           {
-            title: "Business Startup",
-            description: "Design & Development",
+            title: "Loja Galáxia",
+            description: "HTML, CSS e JavaScript",
             imgUrl: projImg1,
           },
           {
-            title: "Business Startup",
-            description: "Design & Development",
+            title: "Lista de tarefas",
+            description: "HTML, CSS e JavaScript",
             imgUrl: projImg2,
           },
           {
-            title: "Business Startup",
-            description: "Design & Development",
+            title: "Basket Web",
+            description: "HTML, CSS e JavaScript",
             imgUrl: projImg3,
           },
     ]
