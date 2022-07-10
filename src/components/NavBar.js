@@ -34,7 +34,7 @@ const NavBar = () => {
                     <h1 style={{color: '#fff', textTransform: 'uppercase'}}>Matheus</h1>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav">
-                    <span className='navbar-toggle-icon'>Menu</span>
+                    <span className='navbar-toggle-icon' style={{color: '#fff'}}>Menu</span>
                 </Navbar.Toggle>
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
@@ -44,13 +44,10 @@ const NavBar = () => {
                 </Nav>
                 <span className="navbar-text">
                     <div className="social-icon">
-                        <a href="https://www.linkedin.com/in/matheus-rodrigues-isaias/"><img src={navIcon1} alt="" /></a>
-                        <a href="https://github.com/MixterOne"><img src={navIcon2} alt="" /></a>
-                        <a href="https://wa.me/+5531988952080"><img src={navIcon3} alt="" /></a>
+                        <a href="https://www.linkedin.com/in/matheus-rodrigues-isaias/" target="_blank"><img src={navIcon1} alt="" /></a>
+                        <a href="https://github.com/MixterOne" target="_blank"><img src={navIcon2} alt="" /></a>
+                        <a href="https://wa.me/+5531988952080" target="_blank"><img src={navIcon3} alt="" /></a>
                     </div>
-                    <button className="vvd" onClick={() => console.log("teste")}>
-                        <span>Let´s Connect</span>
-                    </button>
                 </span>
                 
                 </Navbar.Collapse>
