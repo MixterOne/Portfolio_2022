@@ -1,3 +1,13 @@
+<img src="./src/assets/img/img-readme.jpeg" alt="imagem do site" />
+
+<h2>O que foi usado:</h2>
+<ul>
+<li>React</li>
+<li>Bootstrap</li>
+<li>Css</li>
+<li>Desing Resposive</li>
+</ul>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
