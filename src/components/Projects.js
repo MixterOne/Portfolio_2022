@@ -3,10 +3,11 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 
 import ProjectCard from "./ProjectCards";
 import colorSharp2 from '../assets/img/color-sharp2.png';
-import projImg1 from '../assets/img/projImg1.jpg'
-import projImg2 from '../assets/img/projImg2.jpg'
-import projImg3 from '../assets/img/projImg3.jpeg'
-import projImg4 from '../assets/img/projImg4.jpeg'
+import projImg1 from '../assets/img/projImg1.jpg';
+import projImg2 from '../assets/img/projImg2.jpg';
+import projImg3 from '../assets/img/projImg3.jpeg';
+import projImg4 from '../assets/img/projImg4.jpeg';
+import projImg5 from '../assets/img/projImg5.jpeg';
 
 const Projects = () => {
     const projects = [
@@ -35,16 +36,11 @@ const Projects = () => {
             link: "https://mixterone.github.io/AniFlix/"
           },
           {
-            title: "Lista de tarefas",
-            description: "HTML, CSS e JavaScript",
-            imgUrl: projImg2,
-          },
-          {
-            title: "Basket Web",
-            description: "HTML, CSS e JavaScript",
-            imgUrl: projImg3,
-          },
-          
+            title: "Kanban Board",
+            description: "HTML, CSS e React",
+            imgUrl: projImg5,
+            link: "https://kanban-board-nine.vercel.app/"
+          },      
     ]
 
     return ( 
