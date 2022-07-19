@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Container, Row, Col } from "react-bootstrap";
 
-import BannerRick from '../assets/img/banner-portal.png'
+import BannerMorty from '../assets/img/banner-evil-morty.png'
 const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
@@ -55,7 +55,7 @@ const Banner = () => {
                         <p>Meu principal objetivo profissional é encontrar um trabalho que me dê a oportunidade de aprofundar e melhorar as minhas habilidades de programação, me envolver em projetos interessantes e criativos e aumentar minhas qualificações de desenvolvimento Front-End.</p>              
                     </Col>
                     <Col xs={12} md={6} xl={5}>
-                        <img src={BannerRick} alt="Header img" />
+                        <img src={BannerMorty} alt="Header img" />
                     </Col>
                 </Row>
             </Container>
